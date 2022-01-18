@@ -35,5 +35,16 @@ The analysis of the election shows that:
 - The winner of the election was:
     - Diana DeGette, who received 73.8% of the vote and 272,892 total votes.
 
+Data output via command line: 
+
+![dataoutput](https://github.com/catsdata/Election_Analysis/blob/main/analysis/challengerun.PNG)
+
+Text file output can be accessed [HERE](https://github.com/catsdata/Election_Analysis/blob/main/analysis/election_analysis.txt).
+
 ## Election Audit Summary
-In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+
+Code for this analysis was processed through [Python](https://github.com/catsdata/Election_Analysis/blob/main/PyPoll_Challenge.py).  This code was written using a csv data file with only three headers: "Ballot ID", "County", and "Candidate".  Provided that election results are processed under the same csv data structure on a county level, this code can be used for any election.  
+
+With additional code modifications and expanded provided election data, further analysis can be done, such as:
+- Type of ballot received to understand turnout: Mail-in, Punch Card, and Electronic
+- Voter turnout rate using current county population.  
